@@ -1,5 +1,6 @@
 # M5Stack CORE2 PCB Reverse Engineering Project
 This repository contains a reverse-engineered PCB design of the M5Stack CORE2 development board created in Altium Designer.
+
 <img src="Documentation/images/board-3d-view.png" width="600" alt="M5Stack CORE2 PCB 3D View">
 
 ## Board Preview
