@@ -5,10 +5,23 @@ This repository contains a reverse-engineered PCB design of the M5Stack CORE2 de
 
 ## Board Preview
 
-<p float="left">
+<!-- <p float="left">
   <img src="Documentation/images/top-layer.jpg" height="300" width="300" alt="Top Layer">
   <img src="Documentation/images/bottom-layer.jpg" height="300" width="300" alt="Bottom Layer">
-</p>
+</p> -->
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Documentation/images/top-layer.jpg" height="400" width="400" alt="Top Layer"><br>
+      Top Side
+    </td>
+    <td align="center">
+      <img src="Documentation/images/bottom-layer.jpg" height="400" width="400" alt="Ground Layer"><br>
+      Bottom Side
+    </td>
+  </tr>
+</table>
 
 ## Repository Contents
 - `M5_CORE2.PrjPcb` - Main Altium Designer project file
@@ -37,36 +50,33 @@ The complete schematic is available in PDF format here: [`Schematic PDF`](Docume
 [<img src="Documentation/images/schematic-preview.jpg\" width="600" alt="Schematic Preview">](Documentation/M5_CORE2_Schematic.pdf)
 
 ## PCB Layout
-<p float="left">
-    <p float="left">
-        <figure style="display: inline-block; margin: 1px;">
-            <img src="Documentation/images/m5Layout_top.jpg" height="300" width="300" alt="Top Layer">
-            <figcaption>Top Layer</figcaption>
-        </figure>
-        <figure style="display: inline-block; margin: 1px;">
-            <img src="Documentation/images/m5Layout_Gnd.jpg" height="300" width="300" alt="Inner Layer 1">
-            <figcaption>Inner Layer 1 - Ground</figcaption>
-        </figure>
-        <figure style="display: inline-block; margin: 1px;">
-            <img src="Documentation/images/m5Layout_pwr.jpg" height="300" width="300" alt="Inner Layer 2">
-            <figcaption>Inner Layer 2 - Power</figcaption>
-        </figure>
-        <figure style="display: inline-block; margin: 1px;">
-            <img src="Documentation/images/m5Layout_bottom.jpg" height="300" width="300" alt="Bottom Layer">
-            <figcaption>Bottom Layer</figcaption>
-        </figure>
-    </p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="Documentation/images/m5Layout_top.jpg" height="400" width="400" alt="Top Layer"><br>
+      Top Layer
+    </td>
+    <td align="center">
+      <img src="Documentation/images/m5Layout_Gnd.jpg" height="400" width="400" alt="Ground Layer"><br>
+      Inner Layer 1 - Ground
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Documentation/images/m5Layout_pwr.jpg" height="400" width="400" alt="Power Layer"><br>
+      Inner Layer 2 - Power
+    </td>
+    <td align="center">
+      <img src="Documentation/images/m5Layout_bottom.jpg" height="400" width="400" alt="Bottom Layer"><br>
+      Bottom Layer
+    </td>
+  </tr>
+</table>
 
 ## How to Use
-1. Clone this repository
+1. Clone this repository, or [Download](https://github.com/sagar-koirala/M5Stack-CORE2-PCB-RE/archive/refs/heads/main.zip) as Zip.
 2. Open the project in Altium Designer
-3. All required libraries are included in the project
-4. Generate outputs as needed
-
-## Important Notes
-- This is a reverse-engineered project for educational purposes
-- All components and footprints have been recreated based on the original board
-- [Add any special considerations or known limitations]
+3. All required libraries are included in the project. Generate outputs as needed
 
 ## Disclaimer
-This is an unofficial reverse-engineered design. This project is not affiliated with or endorsed by M5Stack.
+This is an unofficial reverse-engineered design for educational purposes. This project is not affiliated with or endorsed by M5Stack.
