@@ -1,0 +1,11 @@
+# Altium Designer files
+History/
+__Previews/
+*.PrjPcbStructure
+
+# Project Outputs
+**/Project Outputs*/
+**/Project Logs*/
+
+# Managed folders
+Managed/
